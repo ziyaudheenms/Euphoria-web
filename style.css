@@ -6,7 +6,7 @@
   width: 90%;
   margin: 0 auto;
 }
-nav  {
+nav {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -70,9 +70,9 @@ nav .right .logos .logo {
   border-radius: 8px;
   opacity: 0px;
   background-color: #f6f6f6;
-  margin-right: 5px;
+  margin-right: 15px;
 }
-.Hero {
+.Hero{
   background-image: url("./assets/bg-1.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -81,9 +81,14 @@ nav .right .logos .logo {
   align-items: center;
   justify-content: space-between;
 
-  padding: 150px 40px;
+  padding: 150px 0px;
 }
-.Hero .left {
+.Hero .wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Hero  .left {
   display: flex;
   align-items: center;
 }
@@ -135,10 +140,10 @@ nav .right .logos .logo {
 }
 
 .cards {
-  padding-top: 80px;
+  padding-top: 100px;
   padding-bottom: 80px;
   display: flex;
-  padding: 110px 0;
+  /* padding: 70px 0; */
   /* justify-content: center; */
   width: 100%;
   justify-content: space-between;
@@ -219,7 +224,7 @@ nav .right .logos .logo {
   color: #3c4242;
   display: flex;
   margin-bottom: 60px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .NewArrival main {
   width: 6px;
@@ -232,13 +237,13 @@ nav .right .logos .logo {
 }
 .NewArrival .contents {
   display: flex;
-  justify-content: center;
+  justify-content:center ;
   align-items: center;
 }
 .NewArrival .contents .middle {
   display: flex;
-  justify-content: center;
-  margin: 0 50px;
+  justify-content: space-between;
+  /* margin: 0 50px; */
 }
 .NewArrival .contents .arrow {
   width: 20px;
@@ -246,15 +251,14 @@ nav .right .logos .logo {
 .NewArrival .contents .middle .card {
   width: 262.81px;
   height: 319.67px;
+  
 
   gap: 0px;
   opacity: 0px;
   margin: 17px;
 
- 
-border-radius: 12px;
-opacity: 0px;
-
+  border-radius: 12px;
+  opacity: 0px;
 }
 .NewArrival .contents .card img {
   width: 100%;
@@ -273,7 +277,6 @@ opacity: 0px;
   display: flex;
   margin-top: 56px;
   margin-bottom: 80px;
-  /* border-radius: 0; */
 }
 .advertise .leftAdv {
   background-image: url("assets/bg-4.jpg");
@@ -286,6 +289,8 @@ opacity: 0px;
   padding-top: 200px;
   padding-left: 70px;
   padding-right: 70px;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
 }
 .advertise .leftAdv h1 {
   font-family: Core Sans C;
@@ -296,9 +301,7 @@ opacity: 0px;
   text-align: left;
 
   color: #fff;
-  margin-bottom: 40px;
-
-
+  margin-bottom: 20px;
 }
 .advertise .leftAdv h4 {
   font-family: Causten;
@@ -309,12 +312,9 @@ opacity: 0px;
   text-align: left;
   color: #fff;
   margin-bottom: 60px;
-
-
 }
 .advertise .leftAdv a {
   background-color: white;
-
 
   text-decoration: none;
   color: #3c4242;
@@ -325,14 +325,13 @@ opacity: 0px;
   line-height: 21.6px;
   text-align: center;
 
-  width: Hug (168px)px;
-height: Hug (46px)px;
-top: 236px;
-padding: 12px 44px 12px 44px;
-gap: 12px;
-border-radius: 8px ;
-opacity: 0px;
-
+  width: Hug (168px) px;
+  height: Hug (46px) px;
+  top: 236px;
+  padding: 12px 44px 12px 44px;
+  gap: 12px;
+  border-radius: 8px;
+  opacity: 0px;
 }
 .advertise .rightAdv {
   background-image: url("/assets/bg-5.jpg");
@@ -342,6 +341,9 @@ opacity: 0px;
   gap: 0px;
   opacity: 0px;
   background-size: cover;
+  border-top-right-radius: 15px;
+
+  border-bottom-right-radius: 15px;
 }
 .Men {
   margin-bottom: 70px;
@@ -517,6 +519,7 @@ opacity: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 30px;
 }
 .TopBrands .Bottom .brand {
   margin-right: 30px;
@@ -751,6 +754,7 @@ opacity: 0px;
   line-height: 61.99px;
   text-align: right;
   color: #f6f6f6;
+  margin-right: 140px;
 }
 .logo {
   display: flex;
@@ -762,6 +766,7 @@ opacity: 0px;
   display: flex;
   align-items: center;
   margin-left: 40px;
+  margin-bottom: 25px;
 }
 .logo .left .logos .logo {
   padding: 12px 15px;
@@ -774,7 +779,8 @@ opacity: 0px;
 
 .logo .right {
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+  margin-right: 52px;
 }
 .logo .right .logo {
   margin: 15px;
@@ -806,7 +812,7 @@ opacity: 0px;
   justify-content: space-between;
   align-items: center;
   margin: 20px 0;
-  padding: 0 40px;
+  padding: 0 50px;
 }
 .Category .left h1 {
   font-family: Causten;
